@@ -1,0 +1,78 @@
+/*Learn this code*/
+body{
+    font-family: Georgia, Times, Times New Roman, serif;
+    }
+
+h1  {
+    color: brown;
+    background-color: mediumaquamarine;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    padding-top: none;
+    
+    }
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+    font-kerning: 1px;
+
+    }
+
+a   {
+    display: inline;
+    font-weight: bold;
+    font-family: Courier New, Courier, monospace;
+    text-decoration: coral;
+    color: hotpink;
+
+    }
+#biography{ 
+    background-color: #cbeaef;
+    }
+
+p{
+    background-color: rgba(00, 00, 00, 0.6);
+    color: #ffffff;
+    text-indent: 50px;   
+}
+#film{
+    background-color: lightseagreen;
+}
+
+.film, .year{
+    color:ghostwhite;
+
+}
+.orange{
+    color: #875BBC;
+    }
+.green{background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+p.blue a{
+    color:yellow;
+}
+p.green, p.red a {
+    color: white;
+}
+li.seen, span.seen {
+    color: silver
+}
+li.unseen, span.unseen {
+    color: #990000;
+}
+li.seen.good{
+    color: green;
+}
+div#biography a {
+    text-decoration: none;
+}
+div#biography a:hover {
+    text-decoration: underline;
+}
