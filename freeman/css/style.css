@@ -1,6 +1,8 @@
-/*Learn this code*/
+/*This is a comment*/
 body{
     font-family: Georgia, Times, Times New Roman, serif;
+    @-ms-viewport { width: device-width; }
+    
     }
 
 h1  {
